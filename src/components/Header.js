@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <div className='w-full bg-green-200'>
             {/* <div className='text-red-500 font-bold'> This is me.</div> */}
-            <div className='mx-32 my-3 flex' >
+            <div className='lg:mx-32 md:mx-4 my-3 flex' >
                 <div className='w-44 bg-red-200 mx-3'> 
                     <img src={logo} alt='logo' />
                 </div>

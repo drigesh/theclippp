@@ -4,7 +4,7 @@ module.exports = {
   ],
   theme: {
     colors:{
-      footercolor: '#64748b'
+      footercolor: '#cbd5e1'
     },
     extend: {
     },
