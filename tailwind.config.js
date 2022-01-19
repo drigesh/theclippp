@@ -3,7 +3,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    colors:{
+      footercolor: '#64748b'
+    },
+    extend: {
+    },
   },
   plugins: [],
 }
