@@ -16,7 +16,7 @@ export default function Header() {
     }
 
     return (
-        <div className='w-full lg:px-32 md:px-4 sticky top-0 bg-white pt-3 pb-1 drop-shadow-md'>
+        <div className='w-full sm:px-3 lg:px-32 md:px-4 sticky top-0 bg-white pt-3 pb-1 drop-shadow-md'>
             {/* <div className='text-red-500 font-bold'> This is me.</div> */}
             <Signin show={show} setShow={setShow} sign={sign} handleTabChange0={handleTabChange0} handleTabChange1={handleTabChange1} />
             <div className='  flex' >
@@ -28,9 +28,9 @@ export default function Header() {
                     <div className='w-24 my-auto text-center'> Contact Us </div>
                 </div> */}
                 <div className='w-full flex justify-end'>
-                    <div className='w-20 my-auto text-center hover:underline' onClick={handleTabChange0}> Sign Up </div>
-                    <span className='my-auto'> | </span>
-                    <div className='w-20 my-auto text-center hover:underline' onClick={handleTabChange1}> Sign In </div>
+                    <div className='w-20 my-auto text-center hover:underline text-sm md:text-base' onClick={handleTabChange0}> Sign Up </div>
+                    <span className='my-auto hidden md:block'> | </span>
+                    <div className='w-20 my-auto text-center hover:underline hidden md:block ' onClick={handleTabChange1}> Sign In </div>
                 </div>
 
             </div>
