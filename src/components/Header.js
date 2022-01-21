@@ -16,10 +16,10 @@ export default function Header() {
     }
 
     return (
-        <div className='w-full lg:px-32 md:px-4'>
+        <div className='w-full lg:px-32 md:px-4 sticky top-0 bg-white pt-3 pb-1 drop-shadow-md'>
             {/* <div className='text-red-500 font-bold'> This is me.</div> */}
             <Signin show={show} setShow={setShow} sign={sign} handleTabChange0={handleTabChange0} handleTabChange1={handleTabChange1} />
-            <div className=' mt-3 flex' >
+            <div className='  flex' >
                 <div className='w-44 bg-red-200 '> 
                     <img src={logo} alt='logo' />
                 </div>
