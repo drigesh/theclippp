@@ -4,6 +4,11 @@ import location from './../images/loc9.png';
 import {FiSearch} from 'react-icons/fi'
 import FeatureCard from './FeatureCard';
 import Photo from './../images/ankita_singh_crop.jpg'
+import Photo1 from './../images/ajinkya.jpg'
+import Photo2 from './../images/jameel.jpg'
+import Photo3 from './../images/Ajay.jpg'
+
+
 import PersonaCard from './PersonaCard';
 
 export default function Body() {
@@ -55,38 +60,35 @@ export default function Body() {
 {/* half star -> <i class="fas fa-star-half-alt text-yellow-500 text-lg"></i> */}
 
     <div className='px-14 md:px-44 bg-gray-100 w-full py-4 '>
-
-
     <PersonaCard 
       name={'Ankita Singh'} 
-      desc={'This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.'} 
+      desc={'It is accurate to the core, tracks the waiting time in my surrounding saloon, allows me to check-in, adds name to the waitlist, an incredible one!'} 
       rating={5} 
       left={0} 
       photo={Photo}
     />
     <PersonaCard 
-      name={'Ankita Singh'} 
-      desc={'This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.'} 
+      name={'Ajinkya'} 
+      desc={'I no longer wait in the saloon for my turn. This service helps me check-in quickly and know the approximate waiting time, and it is insane!'} 
       rating={4.5} 
       left={1} 
-      photo={Photo}
+      photo={Photo1}
     />
     <PersonaCard 
-      name={'Ankita Singh'} 
-      desc={'This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.'} 
+      name={'Jameel'} 
+      desc={'Very thankful for being an absolute savior;I use it whenever I head to the saloon.'} 
       rating={4.5} 
       left={0} 
-      photo={Photo}
+      photo={Photo2}
     />
     <PersonaCard 
-      name={'Ankita Singh'} 
-      desc={'This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.'} 
-      rating={4.5} 
+      name={'AAjay'} 
+      desc={'Incredible, Knowing the approx waiting time in a saloon by simply check-in,  allows me to spend the waiting time on better things'} 
+      rating={4.0} 
       left={1} 
-      photo={Photo}
+      photo={Photo3}
+      
     />
-
-
 
     </div>
 
