@@ -3,6 +3,8 @@ import poster from './../images/poster3.png';
 import location from './../images/loc9.png';
 import {FiSearch} from 'react-icons/fi'
 import FeatureCard from './FeatureCard';
+import Photo1 from './../images/ankita_singh_crop.jpg'
+import PersonaCard from './PersonaCard';
 
 export default function Body() {
   return (
@@ -48,33 +50,51 @@ export default function Body() {
 
 {/* //////////////////   User Persona ///////////////////////// */}
 
-{/* full star -> <i class="fas fa-star"></i> */}
-{/* empty star -> <i class="far fa-star"></i> */}
-{/* half star -> <i class="fas fa-star-half-alt"></i> */}
+{/* full star -> <i class="fas fa-star text-yellow-500 text-lg"></i> */}
+{/* empty star -> <i class="far fa-star text-yellow-500 text-lg"></i> */}
+{/* half star -> <i class="fas fa-star-half-alt text-yellow-500 text-lg"></i> */}
 
-    <div className='lg:px-32 bg-gray-200 h-68 w-full py-4'>
+    <div className='lg:px-32 bg-gray-100 w-full py-4 '>
 
-      <div className='bg-white w-5/12 rounded-lg ml-auto p-2'>
-        <p className='font-bold'> Ankita Singh </p>
-        <p className=''> This is the best App of my life. Really great experience.</p>
-        <p> <i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i> </p>
-      </div>
+      {/* <div className='bg-white w-5/12 rounded-3xl ml-auto py-1 relative'>
+        <div className='px-3 py-1'>
+          <p className='font-bold'> Ankita Singh </p>
+          <p className='w-10/12 py-1'> This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.</p>
+          <p className='py-1'> <i class="fas fa-star text-yellow-500 text-lg"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i> </p>
+          <img src={Photo} alt="user's photo" className='object-contain rounded-full w-28 h-28 absolute -bottom-8 -right-6'/>
+        </div>
+      </div> */}
 
-      <div className='bg-white w-5/12 rounded-lg mr-auto'>
-        <p className='font-bold'> Ankita Singh </p>
-        <p className=''> This is the best App of my life. Really great experience.</p>
-        <i class="fas fa-star-half-alt text-yellow-500"></i>
-      </div>
+    <PersonaCard 
+      name={'Ankita Singh'} 
+      desc={'This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.'} 
+      rating={5} 
+      left={0} 
+      photo={Photo}
+    />
+    <PersonaCard 
+      name={'Ankita Singh'} 
+      desc={'This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.'} 
+      rating={4.5} 
+      left={1} 
+      photo={Photo}
+    />
+    <PersonaCard 
+      name={'Ankita Singh'} 
+      desc={'This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.'} 
+      rating={4.5} 
+      left={0} 
+      photo={Photo}
+    />
+    <PersonaCard 
+      name={'Ankita Singh'} 
+      desc={'This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.'} 
+      rating={4.5} 
+      left={1} 
+      photo={Photo}
+    />
 
-      <div className='bg-white w-5/12 rounded-lg ml-auto'>
-        <p className='font-bold'> Ankita Singh </p>
-        <p className=''> This is the best App of my life. Really great experience.</p>
-      </div>
 
-      <div className='bg-white w-5/12 rounded-lg mr-auto'>
-        <p className='font-bold'> Ankita Singh </p>
-        <p className=''> This is the best App of my life. Really great experience.</p>
-      </div>
 
     </div>
 
