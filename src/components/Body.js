@@ -3,7 +3,7 @@ import poster from './../images/poster3.png';
 import location from './../images/loc9.png';
 import {FiSearch} from 'react-icons/fi'
 import FeatureCard from './FeatureCard';
-import Photo1 from './../images/ankita_singh_crop.jpg'
+import Photo from './../images/ankita_singh_crop.jpg'
 import PersonaCard from './PersonaCard';
 
 export default function Body() {
@@ -54,16 +54,8 @@ export default function Body() {
 {/* empty star -> <i class="far fa-star text-yellow-500 text-lg"></i> */}
 {/* half star -> <i class="fas fa-star-half-alt text-yellow-500 text-lg"></i> */}
 
-    <div className='lg:px-32 bg-gray-100 w-full py-4 '>
+    <div className='px-14 md:px-44 bg-gray-100 w-full py-4 '>
 
-      {/* <div className='bg-white w-5/12 rounded-3xl ml-auto py-1 relative'>
-        <div className='px-3 py-1'>
-          <p className='font-bold'> Ankita Singh </p>
-          <p className='w-10/12 py-1'> This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.This is the best App of my life. Really great experience.</p>
-          <p className='py-1'> <i class="fas fa-star text-yellow-500 text-lg"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i><i class="fas fa-star text-yellow-500"></i> </p>
-          <img src={Photo} alt="user's photo" className='object-contain rounded-full w-28 h-28 absolute -bottom-8 -right-6'/>
-        </div>
-      </div> */}
 
     <PersonaCard 
       name={'Ankita Singh'} 
